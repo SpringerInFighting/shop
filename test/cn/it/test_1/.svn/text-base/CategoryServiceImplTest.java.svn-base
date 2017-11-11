@@ -1,0 +1,14 @@
+package cn.it.ssh;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CategoryServiceImplTest {
+
+	@Test
+	public void testQueryJoinAccount() {
+		fail("Not yet implemented");
+	}
+
+}

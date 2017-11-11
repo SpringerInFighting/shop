@@ -1,0 +1,33 @@
+﻿<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <%@ include file="/public/head.jspf" %>
+  </head>
+   
+  <body>
+  	<a href="${shop }/send_main_aindex.action">访问后台UI版</a>
+  	<a href="${shop }/send_main_index.action">访问后台普通DIV版</a>
+    <a href="${shop }/category_update.action?category.id=1&category.type=ertong&category.hot=false">访问update</a>
+  	<a href="category_save.action">访问save</a>
+  	<a href="${shop }/category_update.action?id=1&type=ertong&hot=false">更新category</a>
+  	<a href="account_update.action?id=1&name=帅哥客服">更新account</a>
+  	<a href="category_query.action">查询categoryList</a>
+  	<br>
+  	
+  	<c:forEach var="category" items="${requestScope.categoryList }">
+  		${category.id } | ${category.type } | ${category.hot } <br>
+  	</c:forEach>
+  	
+  	<hr>
+  	<c:forEach var="category" items="${sessionScope.categoryList }">
+  		${category.id } | ${category.type } | ${category.hot } <br>
+  	</c:forEach>
+  	
+  	<hr>
+  	<c:forEach var="category" items="${applicationScope.categoryList }">
+  		${category.id } | ${category.type } | ${category.hot } <br>
+  	</c:forEach>
+  </body>
+</html>
+ 

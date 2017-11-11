@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC 
+"-//Apache Struts//XWork Validator 1.0.2//EN" 
+"http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd"> 
+<validators>
+
+	<field name="validationCode">
+	
+		<field-validator type="requiredstring">
+			<message>请输入验证码</message>
+		</field-validator>
+		
+		<field-validator type="validationCodeValidator">
+			<param name="sessionValidationCode">
+				#session.validationCode
+			</param>
+			<message>验证码不正确</message>
+		</field-validator>
+		
+	</field>
+</validators>
+

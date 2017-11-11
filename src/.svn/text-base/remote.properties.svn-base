@@ -1,0 +1,5 @@
+driverClass=com.mysql.jdbc.Driver
+jdbcUrl=jdbc\:mysql\://43.247.68.17\:3306/sq_zgshopms2
+user=sq_zgshopms2
+password=kkj111
+dataSource=com.mchange.v2.c3p0.ComboPooledDataSource
