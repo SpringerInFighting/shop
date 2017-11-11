@@ -1,3 +1,5 @@
-ÀïÃæµÄproperties¶¼ÊÇ°´ÕÕ²»Í¬µÄ·şÎñÆ÷ÅäµÄ
-Èç£º
-src/Â·¾¶ÏÂµÄpublicOnLine_pzjs.properties ºÍ publicOnLine.properties ÀïÃæÅäÖÃµÄÊÇ²»Í¬·şÎñÆ÷µÄ²»Í¬Â·¾¶
+ï»¿é‡Œé¢çš„propertieséƒ½æ˜¯æŒ‰ç…§ä¸åŒçš„æœåŠ¡å™¨é…çš„
+å¦‚ï¼š
+src/è·¯å¾„ä¸‹çš„publicOnLine_pzjs.properties å’Œ publicOnLine.properties é‡Œé¢é…ç½®çš„æ˜¯ä¸åŒæœåŠ¡å™¨çš„ä¸åŒè·¯å¾„
+
+å¯¼å…¥é¡¹ç›®çš„æ—¶å€™è¦æŠŠ/shop/WebRoot/WEB-INF/libé‡Œçš„jarå…¨å¯¼å…¥
